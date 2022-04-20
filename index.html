@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor Game by YJ</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div id="titlebox">
+          <h1>Rock, Paper, Scissor Game</h1>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="container">
+        <div>
+          <img src="images/game.jpg" id="gameimage" />
+        </div>
+        <div class="rules">
+          <p>Mankind is at the fate of your hands!</p>
+          <p>
+            You must win 5 times before the computer does to save the world!
+          </p>
+        </div>
+        <div class="result">
+          <!-- <div id="playerscore">
+            <h1 id="playerscoreid">Player Score</h1>
+            <p id="playernumber">0</p>
+          </div>
+          <div id="computerscore">
+            <h1 id="computerscoreid">Computer Score</h1>
+            <p id="computernumber">0</p>
+          </div> -->
+          <div id="currentscorediv">
+            <h1>Current Score</h1>
+            <p id="currentscorep">0 : 0</p>
+          </div>
+          <div id="result">
+            <h1>Result</h1>
+            <p id="resultp">HERE WE GO!</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="boxes">
+      <div class="container">
+        <div id="rockbox">
+          <img src="images/rock.jpg" class="images" />
+          <h1>ROCK</h1>
+          <button id="button-rock-id">Rock</button>
+        </div>
+        <div id="paperbox">
+          <img src="images/paper.jpg" class="images" />
+          <h1>PAPER</h1>
+          <button id="button-paper-id">Paper</button>
+        </div>
+        <div id="rockbox">
+          <img src="images/scissor.jpg" class="images" />
+          <h1>SCISSOR</h1>
+          <button id="button-scissor-id">Scissor</button>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
